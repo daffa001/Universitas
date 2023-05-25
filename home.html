@@ -1,0 +1,156 @@
+<html>
+  <head>
+    <!--Icons-->
+    <script src="https://unpkg.com/feather-icons"></script>
+
+    <title>Genshin impact</title>
+    <link rel="stylesheet" href="home.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15/dist/smooth-scroll.polyfills.min.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@500&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Kalam:wght@300&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <section id="banner">
+      <div class="banner-text">
+        <h1>Universitas Indonesia</h1>
+        <h2>Veritas,Probitas,Justitia | Est 1849</h2>
+        <div class="banner-tekan">
+          <a href="hubungi.html"><span></span>Hubungi kami</a>
+        </div>
+      </div>
+    </section>
+    <!-- <div id="sideNav">
+      <nav>
+        <ul>
+          <li><a href="#banner">HOME</a></li>
+          <li><a href="#feature">Tentang kami</a></li>
+          <li><a href="#service">Contact</a></li>
+          <li><a href="#feature12">Alamat</a></li>
+          <li><a href="#service12">Gallery</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div id="menuBtn">
+      <img src="gambar/menu.png" id="menu" />
+    </div> -->
+
+    <!--Navbar-->
+    <!-- content -->
+    <section class="content" id="content">
+      <div class="content1">
+        <img class="gambar1" src="gambar/content1.jpg" alt="" />
+
+        <div class="up-content">
+          <div class="img1">
+            <div class="text1">
+              <h2>Kenapa Kami?</h2>
+              <a href="#">Selengkapnya</a>
+            </div>
+          </div>
+
+          <div class="img2">
+            <div class="text2">
+              <h2>Fakultas</h2>
+              <a href="#">Selengkapnya</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="down-content">
+          <div class="img3">
+            <div class="text3">
+              <h2>Mahasiswa</h2>
+              <a href="#">Selengkapnya</a>
+            </div>
+          </div>
+          <div class="img4">
+            <div class="text4">
+              <h2>Kegiatan Kampus</h2>
+              <a href="#">Selengkapnya</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- content end -->
+    <nav class="navbar">
+      <div class="logo-navbar">
+        <img src="gambar/navbar-logo.png" class="logo" />
+      </div>
+
+      <div class="navbar-list">
+        <a href="#home">Beranda</a>
+        <a href="tentang.html">Tentang Kami</a>
+        <a href="akademik.html">Akademik</a>
+        <a href="#contact">Layanan</a>
+      </div>
+
+      <div class="login">
+        <a href="#" class="code">
+          <i class="icon-login" data-feather="user"></i>
+        </a>
+        <a href="#" class="login-text">Login</a>
+      </div>
+    </nav>
+    <!--Navbar end-->
+
+    <!--Footer-->
+    <section class="footer" id="footer">
+      <div class="footer1">
+        <img src="gambar/logo-footer.png" class="img-footer" />
+      </div>
+
+      <div class="footer1">
+        <h2>Useful Links</h2>
+        <ul>
+          <li><a href="#"> Home</a></li>
+          <li><a href="#"> About Us</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+      </div>
+      <div class="footer1">
+        <h2>Connect With Us</h2>
+        <ul>
+          <li><a href="#"> Home</a></li>
+          <li><a href="#"> About Us</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+      </div>
+    </section>
+    <section class="copyright">
+      <div class="copy-right">
+        <h2>2023 Copyright &copy; Acumalaka</h2>
+      </div>
+    </section>
+    <!-- Footer end -->
+
+    <script>
+      var menuBtn = document.getElementById('menuBtn');
+      var sideNav = document.getElementById('sideNav');
+      var menu = document.getElementById('menu');
+
+      sideNav.style.right = '-250px';
+
+      menuBtn.onclick = function () {
+        if (sideNav.style.right == '-250px') {
+          sideNav.style.right = '0';
+          menu.src = 'gambar/close.png';
+        } else {
+          sideNav.style.right = '-250px';
+          menu.src = 'gambar/menu.png';
+        }
+      };
+    </script>
+    <!--Icons-->
+    <script>
+      feather.replace();
+    </script>
+  </body>
+</html>
